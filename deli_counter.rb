@@ -15,12 +15,12 @@ end
    if nextup.size == 0
      puts "There is nobody waiting to be served!"
    elsif nextup.size >= 1
-<<<<<<< HEAD
-     puts "Currently serving #{ nextup[0] }."
-     nextup.delete_at(0)
+# <<<<<<< HEAD
+#      puts "Currently serving #{ nextup[0] }."
+#      nextup.delete_at(0)
 # =======
-#      puts "Currently serving #{nextup(0)}."
-#      nextup.delete_at[0]
-# >>>>>>> a8e535a2a2d7996bb05f5bd423871af85dc158d2
+     puts "Currently serving #{nextup(0)}."
+     nextup.delete_at[0]
+>>>>>>> a8e535a2a2d7996bb05f5bd423871af85dc158d2
    end
  end
